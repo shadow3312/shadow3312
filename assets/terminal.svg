@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="820" height="340" viewBox="0 0 820 340">
+  <style>
+    .t { font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace; font-size: 16px; }
+    .p { fill: #4FB394; font-weight: 700; }
+    .c { fill: #FAFAF7; }
+    .o { fill: #9FB3C8; }
+    .h { fill: #D85A30; font-weight: 700; }
+    .k { fill: #4FB394; }
+    .out { opacity: 0; }
+    .cursor { fill: #D85A30; animation: blink 1s step-end infinite; }
+    @keyframes blink { 50% { opacity: 0; } }
+  </style>
+
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0E1A2B"/>
+      <stop offset="1" stop-color="#183153"/>
+    </linearGradient>
+    <clipPath id="c1"><rect x="0" y="60" height="30" width="0"><animate attributeName="width" from="0" to="820" begin="0.4s" dur="0.8s" fill="freeze"/></rect></clipPath>
+    <clipPath id="c2"><rect x="0" y="120" height="30" width="0"><animate attributeName="width" from="0" to="820" begin="2.4s" dur="1s" fill="freeze"/></rect></clipPath>
+    <clipPath id="c3"><rect x="0" y="180" height="30" width="0"><animate attributeName="width" from="0" to="820" begin="4.6s" dur="0.9s" fill="freeze"/></rect></clipPath>
+    <clipPath id="c4"><rect x="0" y="240" height="30" width="0"><animate attributeName="width" from="0" to="820" begin="6.8s" dur="1.2s" fill="freeze"/></rect></clipPath>
+  </defs>
+
+  <!-- Fenêtre -->
+  <rect x="2" y="2" width="816" height="336" rx="14" fill="url(#bg)" stroke="#0F6E56" stroke-width="2"/>
+  <rect x="2" y="2" width="816" height="38" rx="14" fill="#0B1522"/>
+  <rect x="2" y="26" width="816" height="14" fill="#0B1522"/>
+  <circle cx="28" cy="21" r="7" fill="#FF5F57"/>
+  <circle cx="52" cy="21" r="7" fill="#FEBC2E"/>
+  <circle cx="76" cy="21" r="7" fill="#28C840"/>
+  <text x="410" y="26" text-anchor="middle" class="t" fill="#9FB3C8" font-size="13">zer@brazzaville: ~/github</text>
+
+  <!-- 1 -->
+  <g clip-path="url(#c1)"><text x="24" y="80" class="t"><tspan class="p">❯ </tspan><tspan class="c">whoami</tspan></text></g>
+  <text x="24" y="104" class="t out"><tspan class="h">Zer</tspan><tspan class="o"> — Fullstack Developer · Formateur Fullstack &amp; Data · Freelance</tspan>
+    <animate attributeName="opacity" from="0" to="1" begin="1.6s" dur="0.3s" fill="freeze"/></text>
+
+  <!-- 2 -->
+  <g clip-path="url(#c2)"><text x="24" y="140" class="t"><tspan class="p">❯ </tspan><tspan class="c">cat stack.txt</tspan></text></g>
+  <text x="24" y="164" class="t out"><tspan class="k">Next.js · TypeScript · Supabase · Prisma · React Native · Python</tspan>
+    <animate attributeName="opacity" from="0" to="1" begin="3.8s" dur="0.3s" fill="freeze"/></text>
+
+  <!-- 3 -->
+  <g clip-path="url(#c3)"><text x="24" y="200" class="t"><tspan class="p">❯ </tspan><tspan class="c">ls ./projets</tspan></text></g>
+  <text x="24" y="224" class="t out"><tspan class="h">cohortos/  kotizone/  flybetter3d/  ilots-de-chaleur/</tspan>
+    <animate attributeName="opacity" from="0" to="1" begin="5.9s" dur="0.3s" fill="freeze"/></text>
+
+  <!-- 4 -->
+  <g clip-path="url(#c4)"><text x="24" y="260" class="t"><tspan class="p">❯ </tspan><tspan class="c">./disponibilite --check</tspan></text></g>
+  <text x="24" y="284" class="t out"><tspan class="k">✔ Ouvert aux missions freelance &amp; opportunités remote</tspan>
+    <animate attributeName="opacity" from="0" to="1" begin="8.4s" dur="0.3s" fill="freeze"/></text>
+
+  <!-- Curseur final -->
+  <g class="out">
+    <text x="24" y="318" class="t p">❯</text>
+    <rect x="42" y="304" width="10" height="18" class="cursor"/>
+    <animate attributeName="opacity" from="0" to="1" begin="9s" dur="0.1s" fill="freeze"/>
+  </g>
+</svg>
