@@ -80,7 +80,13 @@ I care about the craft behind the interface: clear architecture, maintainable co
 ## `04 / RECENT TRANSMISSIONS`
 
 <!-- RECENT_REPOS_START -->
-_The mission log is waiting for its first scheduled update.
+_Latest updated public repositories (automatically refreshed weekly):_
+
+- [**shadow3312**](https://github.com/shadow3312/shadow3312) · `JavaScript` · updated 2026-11-09
+- [**pica**](https://github.com/shadow3312/pica) · `JavaScript` · updated 2026-10-30
+- [**template-s2-html-semantic**](https://github.com/shadow3312/template-s2-html-semantic) · `CSS` · updated 2026-06-17
+- [**glb-models**](https://github.com/shadow3312/glb-models) · updated 2026-04-24
+- [**flybetter3d**](https://github.com/shadow3312/flybetter3d) · `TypeScript` · updated 2026-04-23
 <!-- RECENT_REPOS_END -->
 
 ## `05 / ENGINEERING PRINCIPLES`
